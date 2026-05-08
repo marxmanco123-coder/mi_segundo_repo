@@ -7,8 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Primer mensaje
-        run: echo "Hola desde GitHub Actions"
+    - name: Primer mensaje
+      run: echo "Hola desde GitHub Actions"
 
-      - name: Segundo mensaje
-        run: echo "Este es el segundo paso automático"
+    - name: Segundo mensaje
+      run: echo "Este es el segundo paso automático"
+
+    - name: Ver archivos del repositorio
+      run: ls
